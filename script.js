@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const btnElem = document.querySelector(".btn");
-const modalContainer = document.getElementById("modal");
+const modalContainer = document.querySelector(".modal");
 
 btnElem.addEventListener("click", (e) => {
     if (modalContainer.classList.contains("hide")) {
@@ -14,7 +14,7 @@ btnElem.addEventListener("click", (e) => {
 
 })
 
-document.querySelector(".close").addEventListener("click",()=>{
+document.querySelector(".close-modal").addEventListener("click",()=>{
 
   document.body.style.backgroundColor = "transparent"
   modalContainer.classList.add("hide");
