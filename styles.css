@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+.container{
+	padding:15px;
+	background-color:gray;
+	margin-top:2rem
+}
+.hide{
+	display:none;
+}
+.modal-header{
+	background-color:green;
+	color:white;
+	padding:10px 20px;
+
+}
