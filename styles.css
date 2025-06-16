@@ -1,8 +1,11 @@
 /*  your css code here. If applicable */
 .container{
 	padding:25px ;
-	background-color:gray;
-	margin-top:2rem
+	margin-top:3rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
 }
 .hide{
 	display:none;
@@ -12,4 +15,9 @@
 	color:white;
 	padding:10px 20px;
 
+}
+.modal-body{
+  display: flex;
+  align-items: center;
+  gap:1.5rem;
 }
